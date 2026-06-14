@@ -59,9 +59,9 @@ We compare five classifiers — **EBM, Random Forest, XGBoost, LightGBM, and Gra
 | Model | ROC-AUC (Natural) | PR-AUC (Natural) | Brier Score |
 |---|---|---|---|
 | Random Forest | **0.922** | **0.395** | 0.0233 |
-| XGBoost | 0.894 | 0.267 | — |
+| XGBoost | 0.894 | 0.267 | 0.0290 |
 | EBM | 0.887 | 0.189 | **0.0257** |
-| LightGBM | 0.886 | 0.202 | — |
+| LightGBM | 0.886 | 0.202 | 0.0360 |
 | Gradient Boosting | 0.838 | 0.105 | 0.1082 |
 
 EBM achieves competitive discrimination with full interpretability via shape functions. Random Forest (highest AUC) is used for SHAP-based global and local explanations.
